@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="d9cf2662-278d-4cb0-a426-523b21ba2810" data-root-id="1007"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1131">
+          {"07878890-5b54-4a09-bc6a-bfe38fb5b819":{"roots":{"references":[{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1058","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"x":{"field":"Long"},"y":{"field":"Lat"}},"id":"1041","type":"Circle"},{"attributes":{},"id":"1026","type":"PanTool"},{"attributes":{"dimension":1,"ticker":{"id":"1022","type":"BasicTicker"}},"id":"1025","type":"Grid"},{"attributes":{"attribution":"&amp;copy; &lt;a href=\"https://www.openstreetmap.org/copyright\"&gt;OpenStreetMap&lt;/a&gt; contributors,&amp;copy; &lt;a href=\"https://cartodb.com/attributions\"&gt;CartoDB&lt;/a&gt;","url":"https://tiles.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"},"id":"1006","type":"WMTSTileSource"},{"attributes":{"formatter":{"id":"1054","type":"BasicTickFormatter"},"ticker":{"id":"1022","type":"BasicTicker"},"visible":false},"id":"1021","type":"LinearAxis"},{"attributes":{},"id":"1031","type":"HelpTool"},{"attributes":{"callback":null,"end":9000000,"start":-9000000},"id":"1008","type":"Range1d"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1026","type":"PanTool"},{"id":"1027","type":"WheelZoomTool"},{"id":"1028","type":"BoxZoomTool"},{"id":"1029","type":"SaveTool"},{"id":"1030","type":"ResetTool"},{"id":"1031","type":"HelpTool"}]},"id":"1032","type":"Toolbar"},{"attributes":{},"id":"1022","type":"BasicTicker"},{"attributes":{},"id":"1054","type":"BasicTickFormatter"},{"attributes":{},"id":"1027","type":"WheelZoomTool"},{"attributes":{},"id":"1012","type":"LinearScale"},{"attributes":{"overlay":{"id":"1058","type":"BoxAnnotation"}},"id":"1028","type":"BoxZoomTool"},{"attributes":{"data_source":{"id":"1001","type":"ColumnDataSource"},"glyph":{"id":"1040","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1041","type":"Circle"},"selection_glyph":null,"view":{"id":"1043","type":"CDSView"}},"id":"1042","type":"GlyphRenderer"},{"attributes":{"text":""},"id":"1051","type":"Title"},{"attributes":{},"id":"1014","type":"LinearScale"},{"attributes":{},"id":"1029","type":"SaveTool"},{"attributes":{},"id":"1030","type":"ResetTool"},{"attributes":{"formatter":{"id":"1052","type":"BasicTickFormatter"},"ticker":{"id":"1017","type":"BasicTicker"},"visible":false},"id":"1016","type":"LinearAxis"},{"attributes":{},"id":"1017","type":"BasicTicker"},{"attributes":{"tile_source":{"id":"1006","type":"WMTSTileSource"}},"id":"1046","type":"TileRenderer"},{"attributes":{"ticker":{"id":"1017","type":"BasicTicker"}},"id":"1020","type":"Grid"},{"attributes":{"callback":null,"end":9000000,"start":-9000000},"id":"1010","type":"Range1d"},{"attributes":{"source":{"id":"1001","type":"ColumnDataSource"}},"id":"1043","type":"CDSView"},{"attributes":{"callback":null,"data":{"Country/Region":["Australia","Australia","Cambodia","Canada","Canada","France","Germany","Hong Kong SAR","Japan","Macao SAR","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Mainland China","Malaysia","Nepal","Republic of Korea","Singapore","Sri Lanka","Taipei and environs","Thailand","US","US","US","US","US","Viet Nam"],"Date":["2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-23","2020-01-28","2020-01-23","2020-01-28","2020-01-26","2020-01-25","2020-01-28","2020-01-28","2020-01-24","2020-01-25","2020-01-25","2020-01-24","2020-01-25","2020-01-23","2020-01-26","2020-01-24","2020-01-27","2020-01-28","2020-01-24","2020-01-27","2020-01-28","2020-01-24","2020-01-28","2020-01-28","2020-01-26","2020-01-28","2020-01-24","2020-01-27","2020-01-24","2020-01-25","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-27","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-28","2020-01-28"],"Lat":["-33.8688","-37.8136","11.55","49.2827","51.2538","47","51","22.3","36","22.1667","31.8257","40.1824","30.0572","26.0789","36.0611","23.3417","23.8298","26.8154","19.1959","38.0428","47.862","33.88202","30.9756","27.6104","44.0935","32.9711","27.614","43.6661","41.2956","37.2692","35.7452","35.1917","36.3427","31.202","37.5777","30.6171","39.3054","41.1129","24.974","29.1832","2.5","28.1667","36","1.2833","7","23.7","15","41.7377","47.6062","34.0522","33.2918","33.7879","16"],"Long":["151.2093","144.9631","104.9167","-123.1207","-85.3232","2","9","114.2","138","113.55","117.2264","116.4142","107.874","117.9874","103.8343","113.4244","108.7881","106.8748","109.7453","114.5149","127.7615","113.614","112.2707","111.7088","113.9448","119.455","115.7221","126.1923","122.6085","106.1655","95.9956","108.8701","118.1498","121.4491","112.2922","102.7103","117.323","85.2401","101.487","120.0934","112.5","84.25","128","103.8333","81","121","101","-87.6976","-122.3321","-118.2437","-112.4291","-117.8531","108"],"Province/State":["New South Wales","Victoria","NaN","British Columbia","Ontario","NaN","NaN","Hong Kong","NaN","Macau","Anhui","Beijing","Chongqing","Fujian","Gansu","Guangdong","Guangxi","Guizhou","Hainan","Hebei","Heilongjiang","Henan","Hubei","Hunan","Inner Mongolia","Jiangsu","Jiangxi","Jilin","Liaoning","Ningxia","Qinghai","Shaanxi","Shandong","Shanghai","Shanxi","Sichuan","Tianjin","Xinjiang","Yunnan","Zhejiang","NaN","NaN","NaN","NaN","NaN","Taiwan","NaN","Cook County, IL","King County, WA","Los Angeles, CA","Maricopa County, AZ","Orange County, CA","NaN"],"Value":["4","1","1","1","1","4","4","8","7","7","9","91","9","80","7","78","51","9","8","8","9","9","761","9","7","9","72","8","4","7","6","5","95","66","9","90","8","5","5","62","4","1","4","7","1","8","8","1","1","1","1","1","2"]},"selected":{"id":"1004","type":"Selection"},"selection_policy":{"id":"1005","type":"UnionRenderers"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"1016","type":"LinearAxis"}],"center":[{"id":"1020","type":"Grid"},{"id":"1025","type":"Grid"}],"left":[{"id":"1021","type":"LinearAxis"}],"renderers":[{"id":"1042","type":"GlyphRenderer"},{"id":"1046","type":"TileRenderer"}],"sizing_mode":"stretch_both","title":{"id":"1051","type":"Title"},"toolbar":{"id":"1032","type":"Toolbar"},"x_range":{"id":"1008","type":"Range1d"},"x_scale":{"id":"1012","type":"LinearScale"},"y_range":{"id":"1010","type":"Range1d"},"y_scale":{"id":"1014","type":"LinearScale"}},"id":"1007","subtype":"Figure","type":"Plot"},{"attributes":{"fill_color":{"value":"red"},"line_color":{"value":"yellow"},"x":{"field":"Long"},"y":{"field":"Lat"}},"id":"1040","type":"Circle"},{"attributes":{},"id":"1052","type":"BasicTickFormatter"},{"attributes":{},"id":"1004","type":"Selection"},{"attributes":{},"id":"1005","type":"UnionRenderers"}],"root_ids":["1007"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1131').textContent;
+                  var render_items = [{"docid":"07878890-5b54-4a09-bc6a-bfe38fb5b819","roots":{"1007":"d9cf2662-278d-4cb0-a426-523b21ba2810"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
